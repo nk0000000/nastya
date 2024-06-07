@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/index.css">
+    <link rel="stylesheet" href="assets/css/plugins/animate.css">
+    <link rel="stylesheet" href="assets/css/plugins/owl.theme.default.min.css">
+    <link rel="stylesheet" href="assets/css/plugins/owl.carousel.min.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+       <div class="header-content">
+         <div class="logo">
+           <img src="assets/img/coffee.svg"  alt="">
+           <span>Coffee</span>
+         </div>
+        <nav>
+           <a href="#drinks" onclick="toggleMenu()">Напитки</a>
+           <a href="#deserts" onclick="toggleMenu()" >Десерты</a>
+           <a href="#snacks" onclick="toggleMenu()">Снеки</a>
+        </nav>
+       <div class="adress-link">
+           <img src="assets/img/map.svg" alt="">
+           <a href="https://2gis.kz/ustkam/firm/12807639721318682?m=82.628568%2C49.950075%2F16" target="blank">ул. Казахстан 59</a>
+       </div>
+    <button class="toggle-btn" onclick='toggleMenu();' id="toggle-btn">
+       <img src="assets/img/menu.svg">
+    </button>
+     </div>
+    </div>
+   </header>
+   <div class="menu hide-menu">
+    <div class="menu-header">
+      <img src="assets/img/close.svg"  onclick='toggleMenu();' class="close-btn" alt="">
+    </div>
+    <div class="menu-body">
+           <a href="#drinks" onclick="toggleMenu()">Напитки</a>
+           <a href="#deserts" onclick="toggleMenu()" >Десерты</a>
+           <a href="#snacks" onclick="toggleMenu()">Снеки</a>
+    </div>
+  </div>
+  
+<main>
+
+ 
+  <section>
+    <div class="container">
+     <div class="hero-block">
+      <div class="block">
+         <h1 class="wow fadeInUp"> Кофе высшего сорта из Латинской Америки</h1>
+         <p  class="wow fadeInUp">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, nemo fuga saepe dignissimos repellendus nisi debitis quas ipsum repellat facilis? </p>
+      </div>
+      <div class="block">
+       <img src="assets/img/main.png"  class="hero-img wow fadeInRight">
+     </div>
+    </div>
+    
+  </section>
+
+<section>
+  <div class="container">
+    <div class="interior-block">
+      <div class="slider owl-theme owl-carousel">
+        <img src="assets/img/interior/slide-1.jpg" alt="">
+        <img src="assets/img/interior/slide-2.jpg" alt="">
+        <img src="assets/img/interior/slide-3.jpg" alt="">
+        <img src="assets/img/interior/slide-4.jpg" alt="">
+        <img src="assets/img/interior/slide-5.jpg" alt="">
+        <img src="assets/img/interior/slide-6.jpg" alt="">
+      </div>
+    </div>
+  </div>
+</section>
+<section>
+  <div id="drinks">
+    <div class="container">
+      <div class="products-content">
+        <h2 class=" wow fadeInUp">Напитки</h2>
+        <div class="grid-4">
+          
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="deserts">
+    <div class="container">
+      <div class="products-content">
+        <h2 class=" wow fadeInUp">Десерты</h2>
+        <div class="grid-4">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="snacks">
+    <div class="container">
+      <div class="products-content">
+        <h2 class=" wow fadeInUp">Снеки</h2>
+        <div class="grid-4">
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+    <script src="assets/js/plugins/jquery.min.js"></script>
+    <script src="assets/js/plugins/owl.carousel.min.js"></script>
+    <script src="assets/js/plugins/wow.min.js"></script>
+    <script src="assets/js/date.js"></script>
+    <script src="assets/js/index.js"></script>
+</body>
+</html>
